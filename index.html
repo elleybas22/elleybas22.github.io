@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>A Little Cloud — Portfolio Preview</title>
+        <meta name="description" content="A pastel pixel portfolio design preview, with cloud blues, tiny stars, and a little personality." />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <svg class="sprite-defs" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <symbol id="cloud" viewBox="0 0 100 50"><path d="M10 40V20H25V10H40V0H65V10H80V20H90V30H100V50H0V40Z" fill="currentColor" /></symbol>
+                <symbol id="star" viewBox="0 0 32 32"><path d="M12 0H20V10H30V20H20V32H12V20H2V10H12Z" fill="currentColor" /></symbol>
+                <symbol id="heart" viewBox="0 0 24 24"><path d="M2 4H10V7H14V4H22V14H19V17H16V20H13V23H11V20H8V17H5V14H2Z" fill="currentColor" /></symbol>
+                <symbol id="bow" viewBox="0 0 60 44">
+                    <path d="M2 2H18V8H25V15H35V8H42V2H58V26H43V22H37V28H44V42H34V30H26V42H16V28H23V22H17V26H2Z" fill="#BCDFF5" stroke="#365074" stroke-width="2" />
+                    <path d="M25 15H35V25H25Z" fill="#F8CEDF" stroke="#365074" stroke-width="2" />
+                </symbol>
+            </defs>
+        </svg>
+        <header>
+            <a class="brand" href="#home">
+                <img src="icons/ribbon.png" class="header-icon" alt="Elle's Little Corner" />
+                <span>elle's <span class="brand-dot">little corner</span></span>
+            </a>
+            <nav aria-label="Main navigation">
+                <a href="#about">about</a><a href="#work">my work</a><a href="#contact" class="nav-contact">say hello <span>↗</span></a>
+            </nav>
+        </header>
+        <main id="home">
+            <section class="hero" aria-labelledby="hero-title">
+                <svg class="cloud cloud-one"><use href="#cloud" /></svg><svg class="cloud cloud-two"><use href="#cloud" /></svg><svg class="star star-one"><use href="#star" /></svg><svg class="star star-two"><use href="#star" /></svg>
+                <div class="hero-copy">
+                    <div class="eyebrow"><span class="status-dot"></span> handcrafted with care & a few extra pixels ♡</div>
+                    <h1 id="hero-title">A little curious.<br />A little creative.<br /><span>A whole lot of me.</span></h1>
+                    <p>Welcome to my little cloud.<br />A cozy home for the things I make, learn, and love.</p>
+                    <div class="hero-actions">
+                        <a class="button primary" href="#work">explore my work <span>↓</span></a>
+                    </div>
+                </div>
+                <div class="hero-art">
+                    <div class="floating-label">a little creativity, loading…</div>
+                    <div class="computer">
+                        <div class="computer-top">
+                            <span>world-of-elle.exe</span>
+                            <div class="window-actions" aria-hidden="true">― □ ×</div>
+                        </div>
+                        <div class="computer-screen">
+                            <div class="screen-stars">✦ <span></span> ✦</div>
+                            <img src="assets/portrait-sticker.png" class="img-responsive" />
+                        </div>
+                        <div class="computer-bottom"><span>✿</span><i></i><i></i></div>
+                    </div>
+                    <div class="stand"></div>
+                    <div class="stand-base"></div>
+                    <div class="keyboard"></div>
+                    <svg class="art-heart"><use href="#heart" /></svg><svg class="art-star"><use href="#star" /></svg>
+                    <div class="sticker">100%<br /><strong>daydreamer</strong></div>
+                </div>
+            </section>
+            <div class="ribbon"><span>♡ thoughtful little details</span><span>✦ big ideas, tiny pixels</span><span>♡ made with curiosity</span><span>✦ a sprinkle of personality</span></div>
+            <section id="about" class="about section">
+                <div class="section-heading">
+                    <div>
+                        <div class="eyebrow">01 / the person behind the pixels</div>
+                        <h2>little things about elle<span> ♡</span></h2>
+                    </div>
+                    <span class="section-note">nice to meet you!</span>
+                </div>
+                <div class="about-grid">
+                    <div class="profile-window window">
+                        <div class="titlebar"><span>about-me.txt</span><span aria-hidden="true">― □ ×</span></div>
+                        <div class="profile-body">
+                            <div class="portrait-placeholder">
+                                <img src="assets/about-me-img.png" class="img-responsive" />
+                                <div class="pixel-spark">✦</div>
+                            </div>
+                            <div class="profile-name">Jimelle Ria Ybas</div>
+                            <span class="profile-location">elle · ellie · twizzle · twiz</span>
+                        </div>
+                    </div>
+                    <div class="about-copy">
+                        <h3>A developer with endlessly curious mind.</h3>
+                        <p>Hi! My name is Elle and I’m a developer who blends functionality with creativity, building responsive, SEO-friendly websites and API-integrated mobile applications. Beyond development, I create thoughtfully crafted digital experiences through Figma UI/UX designs, custom VS Code themes, and aesthetic icon packs. ♡ Turning ideas into functional, polished, and delightful digital experiences—one line of code at a time. ✧</p>
+                        <div class="skill-label">a few things in my toolkit</div>
+                        <div class="chips"><span>website development</span><span>mobile application (flutter)</span><span>UI/UX</span></div>
+                    </div>
+                    <aside class="sticky">
+                        <svg><use href="#star" /></svg><span>little things<br />make a<br /><strong>big difference.</strong></span>
+                        <div>♡</div>
+                    </aside>
+                </div>
+            </section>
+            <section id="work" class="work section" aria-labelledby="work-title">
+                <div class="section-heading">
+                    <div>
+                        <div class="eyebrow">02 / ideas, code &amp; a little curiosity</div>
+                        <h2 id="work-title">My project shelf<span> ✦</span></h2>
+                    </div>
+                    <span class="section-note">little ideas, brought to life ♡</span>
+                </div>
+                <p class="section-intro work-intro">From mobile screens to websites and little creative experiments, I enjoy turning ideas into things people can use. Here’s a peek at how I build.</p>
+                <div class="build-window window">
+                    <div class="titlebar"><span>how-i-bring-ideas-to-life.txt</span><span aria-hidden="true">― □ ×</span></div>
+                    <div class="build-flow">
+                        <article class="build-step">
+                            <span class="step-number">01 / in your pocket</span>
+                            <div class="tech-heading">
+                                <span class="tech-icon" aria-hidden="true">▯</span>
+                                <h3>Mobile apps</h3>
+                            </div>
+                            <p>I build mobile experiences with Flutter, connect them to data through APIs, and use Firebase to support the app behind the scenes.</p>
+                            <div class="chips"><span>flutter</span><span>API</span><span>firebase</span></div>
+                        </article>
+                        <article class="build-step">
+                            <span class="step-number">02 / on the web</span>
+                            <div class="tech-heading">
+                                <span class="tech-icon" aria-hidden="true">&lt;/&gt;</span>
+                                <h3>Websites</h3>
+                            </div>
+                            <p>I bring websites to life with HTML, CSS, jQuery, and PHP. I’ve also explored WordPress and plugins as another way to build for the web.</p>
+                            <div class="chips"><span>html</span><span>css</span><span>jquery</span><span>php</span><span>wordpress &amp; plugins</span></div>
+                        </article>
+                        <article class="build-step">
+                            <span class="step-number">03 / just a little extra</span>
+                            <div class="tech-heading">
+                                <span class="tech-icon" aria-hidden="true">✿</span>
+                                <h3>Creative projects</h3>
+                            </div>
+                            <p>I make room for the small details too: creating VS Code themes, experimenting with icons, and giving everyday digital spaces a little more personality.</p>
+                            <div class="chips"><span>themes</span><span>pixel</span><span>icons</span><span>vscode</span><span>creative</span></div>
+                        </article>
+                    </div>
+                    <div class="build-summary">
+                        <img src="icons/star.png" alt="" class="toolkit-star" /><span class="ai-note"><strong>A new part of my process:</strong> I’ve started using AI in some of my projects, exploring where it can help me create and build.</span>
+                    </div>
+                </div>
+                <div class="showcase-cta">
+                    <div>
+                        <h3>Curious about what I’ve made?</h3>
+                        <p>Take a closer look at my apps, websites, and little creative projects.</p>
+                    </div>
+                    <a class="button primary" href="projects.html">browse my projects <span aria-hidden="true">↗</span></a>
+                </div>
+            </section>
+            <section id="contact" class="contact section">
+                <svg class="contact-cloud"><use href="#cloud" /></svg>
+                <div class="eyebrow">03 / let’s make something lovely</div>
+                <h2>Got a little idea?<br /><span>Let’s give it a home.</span></h2>
+                <p>For collaborations, opportunities, or just a friendly hello.</p>
+                <button class="button primary" id="contact-button">
+                    send a little hello <svg><use href="#heart" /></svg>
+                </button>
+                <svg class="contact-star"><use href="#star" /></svg>
+            </section>
+        </main>
+        <footer>
+            <a class="brand" href="#home"
+                ><img src="icons/ribbon.png" class="header-icon" alt="Elle's Little Corner" /> <span>elle's <span class="brand-dot">little corner</span></span></a
+            ><span>handcrafted with care & a few extra pixels ♡</span><a href="#home">back to the clouds ↑</a>
+        </footer>
+        <dialog id="project-dialog" aria-labelledby="dialog-heading">
+            <div class="titlebar"><span id="dialog-title">project-preview.txt</span><button id="close-dialog" aria-label="Close dialog">×</button></div>
+            <div class="dialog-body">
+                <img src="icons/coffee.png" class="img-responsive" />
+                <h2 id="dialog-heading">you got an idea?</h2>
+                <p id="dialog-text"></p>
+                <button class="button primary" id="dialog-done">got it ♡</button>
+            </div>
+        </dialog>
+        <script src="script.js"></script>
+    </body>
+</html>

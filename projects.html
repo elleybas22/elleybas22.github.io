@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project Shelf — Elle’s Little Corner</title>
+        <meta name="description" content="Explore my mobile apps, websites, VS Code themes, and pixel icons." />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <svg class="sprite-defs" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <symbol id="cloud" viewBox="0 0 100 50"><path d="M10 40V20H25V10H40V0H65V10H80V20H90V30H100V50H0V40Z" fill="currentColor" /></symbol>
+                <symbol id="star" viewBox="0 0 32 32"><path d="M12 0H20V10H30V20H20V32H12V20H2V10H12Z" fill="currentColor" /></symbol>
+                <symbol id="heart" viewBox="0 0 24 24"><path d="M2 4H10V7H14V4H22V14H19V17H16V20H13V23H11V20H8V17H5V14H2Z" fill="currentColor" /></symbol>
+                <symbol id="bow" viewBox="0 0 60 44">
+                    <path d="M2 2H18V8H25V15H35V8H42V2H58V26H43V22H37V28H44V42H34V30H26V42H16V28H23V22H17V26H2Z" fill="#BCDFF5" stroke="#365074" stroke-width="2" />
+                    <path d="M25 15H35V25H25Z" fill="#F8CEDF" stroke="#365074" stroke-width="2" />
+                </symbol>
+            </defs>
+        </svg>
+        <header>
+            <a class="brand" href="index.html">
+                <img src="icons/ribbon.png" class="header-icon" alt="Elle's Little Corner" />
+                <span>elle's <span class="brand-dot">little corner</span></span>
+            </a>
+            <nav aria-label="Main navigation">
+                <a href="index.html#about">about</a><a href="projects.html" aria-current="page">my work</a><a href="index.html#contact" class="nav-contact">say hello <span>↗</span></a>
+            </nav>
+        </header>
+        <main class="showcase-main">
+            <section class="section showcase-section" aria-labelledby="showcase-title">
+                <a class="back-link" href="index.html#work">← back to my little corner</a>
+                <div class="showcase-heading">
+                    <div class="eyebrow">a collection of things i build &amp; create</div>
+                    <h1 id="showcase-title">A shelf full of<br /><span>little possibilities.</span></h1>
+                    <p>Mobile apps, websites, and creative side projects.<br />Different kinds of work, the same curious mind.</p>
+                    <img src="icons/ribbon.png" alt="" class="showcase-bow" />
+                </div>
+                <div class="gallery-toolbar">
+                    <div class="filters" aria-label="Filter projects"><button type="button" class="active" data-filter="all" aria-pressed="true">all projects</button><button type="button" data-filter="mobile" aria-pressed="false">mobile apps</button><button type="button" data-filter="web" aria-pressed="false">websites</button><button type="button" data-filter="creative" aria-pressed="false">themes &amp; icons</button></div>
+                    <span id="project-count" role="status" aria-live="polite">5 projects</span>
+                </div>
+                <p class="showcase-note">A shelf in progress ♡ App and theme cards are preview spaces until their real screenshots and project details are added.</p>
+                <div class="projects showcase-grid">
+                    <button type="button" class="project" data-category="mobile" data-kind="mobile" aria-label="View mobile app project 01 placeholder">
+                        <div class="project-art mobile-art mobile-art-blue">
+                            <div class="mockup-label">
+                                widget app<br /><em>for smart mirrors</em><span>project name cannot be disclosed, but you can still explore the app <a href="https://www.evervue.com/app/" target="_blank">here</a></span>
+                            </div>
+                            <div class="phone-mockup" aria-hidden="true">
+                                <div class="phone-camera"></div>
+                                <img src="assets/mirrorfeeds.png" class="img-responsive" />
+                            </div>
+                            <span class="project-num">01</span>
+                        </div>
+                        <div class="project-meta"><span>MOBILE APPLICATION / 01</span><span aria-hidden="true">↗</span></div>
+                        <h3>widget app for smart mirrors</h3>
+                        <p>widget app for stocks, latest news, weather updates and much more.</p>
+                        <div class="project-tags"><span class="project-tag">flutter</span><span class="project-tag">API</span><span class="project-tag">widget</span></div>
+                    </button>
+                    <button type="button" class="project" data-category="mobile" data-kind="mobile" aria-label="View mobile app project 02 placeholder">
+                        <div class="project-art mobile-art mobile-art-pink">
+                            <div class="mockup-label">
+                                gallery app<br /><em>for products</em><span>project name cannot be disclosed, but you can still explore the app <a href="https://www.evervue.com/app/" target="_blank">here</a></span>
+                            </div>
+                            <div class="phone-mockup phone-pink" aria-hidden="true">
+                                <div class="phone-camera"></div>
+                                <img src="assets/gm-ev.png" class="img-responsive" />
+                            </div>
+                            <span class="project-num">02</span>
+                        </div>
+                        <div class="project-meta"><span>MOBILE APPLICATION / 02</span><span aria-hidden="true">↗</span></div>
+                        <h3>gallery app for products</h3>
+                        <p>a complete app with customizable premium bathroom mirrors.</p>
+                        <div class="project-tags"><span class="project-tag">flutter</span><span class="project-tag">API</span><span class="project-tag">lifestyle</span></div>
+                    </button>
+                    <a class="project" data-category="web" href="index.html"
+                        ><div class="project-art website-art">
+                            <div class="mini-browser">
+                                <div>● ● ● <span>elle’s little corner</span></div>
+                                <div class="mini-content">
+                                    <span class="mini-sun">✦</span>
+                                    <div class="web-preview-title">A little curious.<br />A little creative.</div>
+                                    <i></i>
+                                    <div class="mini-blocks"><b></b><b></b><b></b></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta"><span>WEB / EXPLORE PROJECT</span><span aria-hidden="true">↗</span></div>
+                        <h3>elle's little corner</h3>
+                        <p>a cute cloud-colored portfolio with pixel details, perfect to show elle's personality.<br />(most of my website projects are confidential, as requested by the company)</p>
+                        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span></div>
+                    </a>
+                    <button type="button" class="project" data-category="creative" data-project="theme" data-kind="theme">
+                        <div class="project-art icons-art">
+                            <div class="icon-preview"><img src="icons/ribbon.png" alt="" /><img src="icons/heart.png" alt="" /><img src="icons/star.png" alt="" /><img src="icons/cloud.png" alt="" /><img src="icons/white-flower.png" alt="" /><img src="icons/envelope.png" alt="" /></div>
+                        </div>
+                        <div class="project-meta"><span>CREATIVE / VSCODE EXTENSIONS</span><span aria-hidden="true">↗</span></div>
+                        <h3>themes and icons</h3>
+                        <p>cute pastel themes and icons for vscode</p>
+                        <div class="project-tags"><span class="project-tag">pastel</span><span class="project-tag">icons</span><span class="project-tag">themes</span><span class="project-tag">cute</span></div>
+                    </button>
+                    <!-- <button type="button" class="project" data-category="creative" data-project="theme" data-kind="theme">
+                        <div class="project-art theme-art">
+                            <div class="theme-preview">
+                                <div class="titlebar">my-theme.json <span>✦</span></div>
+                                <pre>
+									<span>// a softer place to code</span>
+									<span class="code-pink">const</span> littleIdea = {
+									colors: <span class="code-green">"cloud &amp; blush"</span>,
+									curiosity: <span class="code-pink">true</span>
+									};
+								</pre>
+                            </div>
+                        </div>
+                        <div class="project-meta"><span>CREATIVE / PREVIEW PLACEHOLDER</span><span aria-hidden="true">↗</span></div>
+                        <h3>A cozy corner for my editor</h3>
+                        <p>A space for my VS Code theme: its color palette, editor screenshots, and installation link will go here.</p>
+                        <div class="project-tags"><span class="project-tag">VS Code</span><span class="project-tag">Theme preview</span></div>
+                    </button> -->
+                </div>
+                <div class="shelf-note">always learning, always making <span>··· ✧</span></div>
+            </section>
+            <section class="showcase-bottom">
+                <img src="icons/white-flower.png" alt="" />
+                <h2>More little ideas are on the way.</h2>
+                <a class="text-link" href="index.html#contact">let’s make something lovely ↗</a>
+            </section>
+        </main>
+        <footer>
+            <a class="brand" href="index.html"
+                ><svg><use href="#bow" /></svg><span>my little corner</span></a
+            ><span>handcrafted with care & a few extra pixels ♡</span><a href="index.html">back to my little corner ↗</a>
+        </footer>
+        <dialog id="project-dialog" aria-labelledby="dialog-heading">
+            <div class="titlebar"><span id="dialog-title">project-preview.txt</span><button id="close-dialog" aria-label="Close dialog">×</button></div>
+            <div class="dialog-body">
+                <img src="icons/heart.png" class="img-responsive" />
+                <h2 id="dialog-heading">you got an idea?</h2>
+                <p id="dialog-text"></p>
+                <button class="button primary" id="dialog-done">got it ♡</button>
+            </div>
+        </dialog>
+        <script src="script.js"></script>
+    </body>
+</html>
